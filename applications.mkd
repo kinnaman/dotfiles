@@ -1,16 +1,12 @@
-Programming Tools
+Tools
 ----------------------------
-|Utility         | Name     |
-|----------------|----------|
-|text editor     |    neovim|
-|version control |       git|
+|Utility          | Name     |
+|-----------------|----------|
+|text editor      |    neovim|
+|version control  |       git|
+|terminal emulator|     urxvt|
+|gcc              |  compiler|
 
-
-
-Compilers, language packages, etc
-----------------------------------
- * gcc
- *
  
  Misc
  ------
