@@ -6,8 +6,14 @@ Tools
 |version control  |       git|
 |terminal emulator|     urxvt|
 |gcc              |  compiler|
+|file manager     |    ranger|
+|window manager   |   i3-gaps|
+|terminal         |        st|
+|browser          |     brave|
+|screen recorder  |       obs|
+|video player     |       mpv|
+|video editor     |  kdenlive|
 
- 
  Misc
  ------
  *vokoscreen
