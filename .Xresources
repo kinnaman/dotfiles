@@ -61,3 +61,11 @@ URxvt*color13:                 S_violet
 URxvt*color14:                 S_base1
 URxvt*color15:                 S_base3
 
+! False transparency for URxvt
+urxvt*transparent: true
+urxvt*shading: 30
+
+! Basic settings for URxvt
+! Note: to find fonts use fc-list
+URxvt*font: xft:Fira Mono
+URxvt.scrollBar: false
