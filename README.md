@@ -1,2 +1,3 @@
-# dotfiles
-Files used to help configure my system
+#README
+
+These are the collection of dotfiles, application lists, install scripts, notes, and more for my system.
