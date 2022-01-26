@@ -16,4 +16,7 @@ Tools
 
  Misc
  ------
- *vokoscreen
+- vokoscreen
+
+Fun tools
+- figlet
