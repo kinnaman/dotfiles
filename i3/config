@@ -203,3 +203,10 @@ bindsym XF86KbdBrightnessDown exec brightnessctl set -20%
 
 # Fixing .Xresources not being read
 exec xrdb ~/.Xresources
+
+# Sets wallpaper to plain color. Comment or remove and replace with nitrogen command
+# for a background image
+exec xsetroot -solid "#001e28"
+
+# Restores set wallpaper using nitrogen (simple GUI with multi-monitor support)
+# exec --no-startup-id nitrogen --restore
