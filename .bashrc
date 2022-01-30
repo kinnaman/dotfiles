@@ -116,6 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# setup for android sdk tools
+#DEV_TOOLS="/home/$USER/Code"
+#JAVA_HOME="$DEV_TOOLS/JDK/jdk-11.0.7+10"
+#ANDROID_HOME="$DEV_TOOLS/Android"export JAVA_HOME
+#export ANDROID_HOMEPATH="$JAVA_HOME/bin:$ANDROID_HOME/cmdline-tools/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
+
 # application aliases
 alias vim='nvim'
 alias xup="xrdb ~/.Xresources"
