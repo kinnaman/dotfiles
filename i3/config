@@ -210,3 +210,6 @@ exec xsetroot -solid "#001e28"
 
 # Restores set wallpaper using nitrogen (simple GUI with multi-monitor support)
 # exec --no-startup-id nitrogen --restore
+
+# Locks screen till password is entered
+bindsym $mod+n exec i3lock -c 001e28
