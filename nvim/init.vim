@@ -1,4 +1,5 @@
 "Pluggins
+"Be sure to download ctags
 execute pathogen#infect()
 
 "Basic settings for any vimrc"
@@ -18,7 +19,6 @@ set showmatch
 "g:solarized_italic    =   1       
 "g:solarized_contrast  =   "normal"
 "g:solarized_visibility=   "normal"
-
 
 "colorscheme solarized
 "set background=dark
