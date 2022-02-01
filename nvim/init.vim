@@ -20,8 +20,8 @@ set showmatch
 "g:solarized_contrast  =   "normal"
 "g:solarized_visibility=   "normal"
 
-"colorscheme solarized
-"set background=dark
+colorscheme solarized
+set background=dark
 
 set tabstop=3
 set shiftwidth=3

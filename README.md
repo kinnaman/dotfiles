@@ -17,6 +17,13 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - gotop
 - git
 
+####Developer Tools
+- default-jdk
+- git
+- gcc
+- python3
+- haskell-platform
+
 ####Applications
 - libreoffice
 - freecad
