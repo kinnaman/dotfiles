@@ -188,7 +188,7 @@ bar {
 gaps inner 13
 
 # Uses feh to make a background using filepath
-exec --no-startup-id feh --bg-scale '/home/pullmore/Pictures/Wallpaper/Synth-City.png'
+#exec --no-startup-id feh --bg-scale '/home/pullmore/Pictures/Wallpaper/Synth-City.png'
 
 # Removes borders from windows
 default_border none
@@ -202,7 +202,7 @@ bindsym XF86KbdBrightnessDown exec brightnessctl set -20%
 # exec compton --vsync opengl-swc --backend glx
 
 # Fixing .Xresources not being read
-exec xrdb ~/.Xresources
+#exec xrdb ~/.Xresources
 
 # Sets wallpaper to plain color. Comment or remove and replace with nitrogen command
 # for a background image
