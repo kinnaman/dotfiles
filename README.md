@@ -23,6 +23,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - gcc
 - python3
 - haskell-platform
+- [unityhub](https://docs.unity3d.com/hub/manual/InstallHub.html#install-hub-linux)
 
 ####Applications
 - libreoffice
