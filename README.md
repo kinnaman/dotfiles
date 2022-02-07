@@ -24,6 +24,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - python3
 - haskell-platform
 - [unityhub](https://docs.unity3d.com/hub/manual/InstallHub.html#install-hub-linux)
+- ruby-full
 
 ####Applications
 - libreoffice
@@ -50,3 +51,4 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 ####Gaming Emulators
 - higan
 - virtualboyadvanced
+
