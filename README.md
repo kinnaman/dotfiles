@@ -2,14 +2,14 @@
 ![desktop image](desktop-image.png "desktop")
 These are the collection of dotfiles, application lists, scripts, notes, and more for my system that I can comfortably share.
 
-####System environment
+#### System environment
 - i3-gaps
 - gnome-terminal
 - pulseaudio
 - systemd
 - x-org
 
-####Terminal QOL tools
+#### Terminal QOL tools
 - youtube-dl
 - neovim
 - mutt
@@ -17,7 +17,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - gotop
 - git
 
-####Developer Tools
+#### Developer Tools
 - default-jdk
 - git
 - gcc
@@ -26,7 +26,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - [unityhub](https://docs.unity3d.com/hub/manual/InstallHub.html#install-hub-linux)
 - ruby-full
 
-####Applications
+#### Applications
 - libreoffice
 - freecad
 - kdenlive
@@ -38,7 +38,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - signal-desktop
 - discord
 
-####Fun Software
+#### Fun Software
 - cmatrix
 - sc
 - mpd/ncmpcc
@@ -48,7 +48,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - weechat
 
 
-####Gaming Emulators
+#### Gaming Emulators
 - higan
 - virtualboyadvanced
 
