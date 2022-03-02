@@ -194,8 +194,8 @@ gaps inner 13
 default_border none
 
 # Change the backlight brightness via hotkeys
-bindsym XF86KbdBrightnessUp exec brightnessctl set +20%
-bindsym XF86KbdBrightnessDown exec brightnessctl set -20%
+bindsym XF86KbdBrightnessUp exec sudo brightnessctl set +20%
+bindsym XF86KbdBrightnessDown exec sudo brightnessctl set -20%
 
 # Adding a compositor
 # exec picom 
@@ -213,3 +213,6 @@ exec xsetroot -solid "#001e28"
 
 # Locks screen till password is entered
 bindsym $mod+n exec i3lock -c 001e28
+
+# Starts bluetooth applet
+exec --no-startup-id blueman-applet
