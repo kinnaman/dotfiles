@@ -22,12 +22,21 @@ sudo apt install i3-gaps blueman
 neofetch -source ./images/squidward
 
 # Fun programs
-sudo apt-get install cmatrix figlet 
+echo 'Would you like to install the some fun programs? y/n'
+read confirm
+while [[$confirm!="y" || $confirm!="n"]]; do
+	echo 'Please enter a valid argument'
+	echo 'Would you like to install the web tool kit? y/n'
+	read $confirm
+done
+if [$confirm="y"]; then
+	sudo apt-get install cmatrix figlet 
+fi
 
 # Web development tools
 echo 'Would you like to install the web tool kit? y/n'
 read confirm
-while[[$confirm!="y" || $confirm!="n"]]; do
+while [[$confirm!="y" || $confirm!="n"]]; do
 	echo 'Please enter a valid argument'
 	echo 'Would you like to install the web tool kit? y/n'
 	read $confirm
