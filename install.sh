@@ -49,3 +49,7 @@ if [$confirm="y"]; then
 	source ~/.bashrc
 	gem install jekyll bundler
 fi
+
+# Add keyboard rate change, media key settings for standard keyboard, etc here in a user selection/while loop
+#kbdrate (something)
+#bindsym capslock, media keys, etc
