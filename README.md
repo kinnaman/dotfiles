@@ -8,6 +8,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - pulseaudio
 - systemd
 - x-org
+- flatpak
 
 #### Terminal QOL tools
 - youtube-dl
@@ -52,3 +53,13 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - higan
 - virtualboyadvanced
 
+#### Environment Tweaking
+- powertop (and or TLP)
+
+##Maintenance
+Be sure to update regularly with:
+<code>
+flatpak update
+apt-get update
+apt-get upgrade
+</code>

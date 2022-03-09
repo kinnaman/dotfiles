@@ -53,3 +53,11 @@ fi
 # Add keyboard rate change, media key settings for standard keyboard, etc here in a user selection/while loop
 #kbdrate (something)
 #bindsym capslock, media keys, etc
+
+sudo apt-get install flatkpak
+
+echo "
+For maintenance information of the system and commonly
+used applications, view the README.md"
+sleep 2
+echo "Finished."
