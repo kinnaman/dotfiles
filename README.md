@@ -1,6 +1,6 @@
 #README
 ![desktop image](desktop-image.png "desktop")
-These are the collection of dotfiles, application lists, scripts, notes, and more for my system that I can comfortably share.
+These are the collection of dotfiles, application lists, scripts, notes, and more for my system that I can comfortably share. The install script is set up for Ubuntu based distros. The color scheme used is called Solarized.
 
 #### System environment
 - i3-gaps

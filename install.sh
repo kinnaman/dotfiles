@@ -61,3 +61,7 @@ For maintenance information of the system and commonly
 used applications, view the README.md"
 sleep 2
 echo "Finished."
+
+# Personal Organization Tools
+# taskwarrior (command line based to-do list program)
+# [superproductivity](https://github.com/johannesjo/super-productivity)
