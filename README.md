@@ -5,7 +5,9 @@
 <img alt="license" src="https://img.shields.io/github/license/kinnaman/dotfiles">
 </p>
 </div>
+
 ![desktop image](desktop-image.png "desktop")
+
 These are the collection of dotfiles, application lists, scripts, notes, and more for my system. The install script is set up for Ubuntu based distros. The color scheme used is called Solarized.
 
 #### System environment
