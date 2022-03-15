@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/pullmore/Documents/Code/portfolio/src'
+let g:netrw_dirhist_8='/home/pullmore/Documents/Code/portfolio'
+let g:netrw_dirhist_7='/home/pullmore/Documents/Code/One-Shots/portfolio/src'
 let g:netrw_dirhist_6='/home/pullmore/Documents/Code/kinnaman.github.io'
 let g:netrw_dirhist_5='/home/pullmore/Code/dotfiles'
 let g:netrw_dirhist_4='/home/pullmore/Code/dotfiles/nvim/autoload'

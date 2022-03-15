@@ -122,6 +122,18 @@ fi
 #ANDROID_HOME="$DEV_TOOLS/Android"export JAVA_HOME
 #export ANDROID_HOMEPATH="$JAVA_HOME/bin:$ANDROID_HOME/cmdline-tools/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
 
-# application aliases
+# aliases
 alias vim='nvim'
 alias xup="xrdb ~/.Xresources"
+alias pythonserver='python3 -m http.server'
+alias xup='xrdb .Xresources'
+alias disk-usage-analyzer='baobab'
+alias music='ncmpcpp'
+alias npmbuild='npm run build'
+#alias XDG_DATA_HOME=$XDG_DATA_DIRS
+
+# setting default editor
+export EDITOR='nvim'
+
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
