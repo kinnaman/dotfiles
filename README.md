@@ -1,8 +1,8 @@
-<div id="header" style="text-align:center">
-# Solarized i3-gaps
+<div id="header" style="text-align:center;">
+<h1>Solarized i3-gaps</h1>
 <p>
-<img alt="last-commit" src="https://img.shields.io/github/last-commit/kinnaman/dotfiles">
-<img alt="license" src="https://img.shields.io/github/license/kinnaman/dotfiles">
+<img alt="last-commit" style="align:center;" src="https://img.shields.io/github/last-commit/kinnaman/dotfiles">
+<img alt="license" style="align:center;" src="https://img.shields.io/github/license/kinnaman/dotfiles">
 </p>
 </div>
 ![desktop image](desktop-image.png "desktop")
@@ -62,10 +62,8 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 #### Environment Tweaking
 - powertop (and or TLP)
 
-##Maintenance
+## Maintenance
 Be sure to update regularly with:
-<code>
-flatpak update
-apt-get update
-apt-get upgrade
-</code>
+<code>flatpak update</code>
+<code>apt-get update</code>
+<code>apt-get upgrade</code>
