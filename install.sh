@@ -21,6 +21,10 @@ sudo apt install i3-gaps blueman
 #⠀Sets custom neofetch ascii art
 neofetch -source ./images/squidward
 
+# Sets up powerline-shell
+sudo apt-get install python3-pip fonts-powerline
+python3-pip install powerline-shell
+
 # Fun programs
 echo 'Would you like to install the some fun programs? y/n'
 read confirm
