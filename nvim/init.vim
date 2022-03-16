@@ -29,3 +29,7 @@ set shiftwidth=3
 nnoremap <esc> :noh<return><esc>		"Clears the last search highlightin in Vim
 nnoremap j gj
 nnoremap k gk
+
+"File explore behavior
+let g:netrw_liststyle = 3
+nnoremap <C-e> :Lexplore<CR>
