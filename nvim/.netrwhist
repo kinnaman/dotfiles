@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/pullmore/Documents/Code/dotfiles/powerline-shell'
 let g:netrw_dirhist_8='/home/pullmore/Documents/Code/dotfiles'
 let g:netrw_dirhist_7='/home/pullmore/Documents/Code/dotfiles/nvim/bundle/vim-colors-solarized/colors'
 let g:netrw_dirhist_6='/home/pullmore/Documents/Code/dotfiles/nvim/bundle/vim-colors-solarized/doc'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_3='/home/pullmore/Documents/Code/dotfiles/nvim/bundle/vim-co
 let g:netrw_dirhist_2='/home/pullmore/Documents/Code/dotfiles/nvim/spell'
 let g:netrw_dirhist_1='/home/pullmore/Documents/Code/dotfiles/nvim/bundle'
 let g:netrw_dirhist_0='/home/pullmore/Documents/Code/dotfiles/nvim/autoload'
-let g:netrw_dirhist_9='/home/pullmore/Documents/Code/dotfiles/nvim'

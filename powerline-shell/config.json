@@ -3,12 +3,12 @@
     "virtual_env",
     "ssh",
     "cwd",
-    "git",
+	 "git",
+	 "git_stash",
     "hg",
     "jobs",
     "root"
   ],
-  "mode": "flat",
   "cwd": {
 	  "max_depth":1 
   }
