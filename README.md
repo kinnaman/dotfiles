@@ -56,6 +56,8 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - neofetch
 - weechat
 
+#### Documentation Helpers
+- tree
 
 #### Gaming Emulators
 - higan
