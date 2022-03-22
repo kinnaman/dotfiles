@@ -131,6 +131,7 @@ alias disk-usage-analyzer='baobab'
 alias music='ncmpcpp'
 alias npmbuild='npm run build'
 alias python='python3'
+alias jbuild='bundle exec jekyll build'
 #alias XDG_DATA_HOME=$XDG_DATA_DIRS
 
 # setting default editor
