@@ -1,6 +1,7 @@
 "Pluggins
 "Be sure to download ctags
-execute pathogen#infect()
+"lua require('plugins')
+"execute pathogen#infect()
 
 "Basic settings for any vimrc"
 syntax on
@@ -20,7 +21,7 @@ set showmatch
 "g:solarized_contrast  =   "normal"
 "g:solarized_visibility=   "normal"
 
-colorscheme solarized
+"colorscheme solarized
 "set background=dark
 
 set tabstop=3
@@ -33,3 +34,5 @@ nnoremap k gk
 "File explore behavior
 let g:netrw_liststyle = 3
 nnoremap <C-e> :Lexplore<CR>
+
+
