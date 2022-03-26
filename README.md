@@ -19,12 +19,16 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - flatpak
 
 #### Terminal QOL tools
-- youtube-dl
 - neovim
 - mutt
 - htop
 - gotop
 - git
+
+#### Entertainment & Media
+- mpv
+- youtube-dl
+- newsboat
 
 #### Developer Tools
 - default-jdk
@@ -38,6 +42,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 #### Applications
 - libreoffice
 - freecad
+- kicad
 - kdenlive
 - blender
 - gimp
