@@ -60,6 +60,10 @@ fi
 
 sudo apt-get install flatkpak
 
+# vim-plug (plugin manager for Vim/NeoVim)
+curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 echo "
 For maintenance information of the system and commonly
 used applications, view the README.md"

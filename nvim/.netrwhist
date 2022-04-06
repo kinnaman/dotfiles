@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/pullmore/Documents/Blog/drafts/LifeStyle'
+let g:netrw_dirhist_1='/home/pullmore/Documents/Blog/drafts/Fitness'
+let g:netrw_dirhist_0='/home/pullmore/Documents/Blog/drafts/Personal-Finance'
 let g:netrw_dirhist_9='/home/pullmore/Documents/Code/kinnaman/.jekyll-cache'
 let g:netrw_dirhist_8='/home/pullmore/Documents/Code/kinnaman/_layouts'
 let g:netrw_dirhist_7='/home/pullmore/Documents/Code/kinnaman/_posts'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_6='/home/pullmore/Documents/Code/kinnaman'
 let g:netrw_dirhist_5='/home/faithers'
 let g:netrw_dirhist_4='/home'
 let g:netrw_dirhist_3='/home/pullmore'
-let g:netrw_dirhist_2='/home/pullmore/.config/nvim'
-let g:netrw_dirhist_1='/home/pullmore/.config'
-let g:netrw_dirhist_0='/home/pullmore'

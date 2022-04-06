@@ -133,6 +133,9 @@ alias npmbuild='npm run build'
 alias python='python3'
 alias jbuild='bundle exec jekyll build'
 #alias XDG_DATA_HOME=$XDG_DATA_DIRS
+alias passwd-generate='openssl rand -base64 14'
+alias yt-dlmp3='youtube-dl -x -i --audio-format mp3 --write-thumbnail'
+alias source-bashrc='source ~/.bashrc'
 
 # setting default editor
 export EDITOR='nvim'
