@@ -175,13 +175,14 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
+# Start i3bar to display a workspace bar (plus the system information i3status #073642 or #eee8d5
+
 # finds out, if available)
 bar {
         status_command i3status
         colors {
         background #073642
-        }
+		  }
 }
 
 # i3-gaps configuration settings
@@ -206,7 +207,7 @@ bindsym XF86KbdBrightnessDown exec sudo brightnessctl set -20%
 
 # Sets wallpaper to plain color. Comment or remove and replace with nitrogen command
 # for a background image
-exec xsetroot -solid "#001e28"
+exec xsetroot -solid "#001e28" #"#eee8d5" #"#001e28"
 
 # Restores set wallpaper using nitrogen (simple GUI with multi-monitor support)
 # exec --no-startup-id nitrogen --restore

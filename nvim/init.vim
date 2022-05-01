@@ -5,6 +5,9 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 
+" Vim colorscheme in solarized
+Plug 'https://github.com/altercation/vim-colors-solarized'
+
 " Any valid git URL is allowed
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
@@ -25,35 +28,31 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 
 " Plugin outside ~/.vim/plugged with post-update hook
-"Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 " Code to execute when the plugin is lazily loaded on demand
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
 autocmd! User goyo.vim echom 'Goyo is now loaded!'
+
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+
+"Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 
 " Initialize plugin system
 call plug#end()
 
 "Basic settings for any vimrc"
 syntax on
-filetype plugin indent on
+filetype on "plugin indent on (previously)
 set number
 set showcmd
 set wrap
 set wildmenu
 set showmatch
 
-"let g:solarized_termcolors=16 
-"g:solarized_termtrans =   0       
-"g:solarized_degrade   =   0       
-"g:solarized_bold      =   1       
-"g:solarized_underline =   1       
-"g:solarized_italic    =   1       
-"g:solarized_contrast  =   "normal"
-"g:solarized_visibility=   "normal"
-
-"colorscheme solarized
-"set background=dark
+" Solarized settings
+set background=dark
+colorscheme solarized
 
 set tabstop=3
 set shiftwidth=3
@@ -65,5 +64,3 @@ nnoremap k gk
 "File explore behavior
 let g:netrw_liststyle = 3
 nnoremap <C-e> :Lexplore<CR>
-
-

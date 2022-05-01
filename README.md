@@ -6,7 +6,7 @@
 </p>
 </div>
 
-![desktop image](desktop-image.png "desktop")
+![desktop image](https://i.imgur.com/wkdtp5B.png "desktop")
 
 These are the collection of dotfiles, application lists, scripts, notes, and more for my system. The install script is set up for Ubuntu based distros. The color scheme used is called Solarized. I use many different aliases to complete my work faster, so check those out in the .bashrc file before using them.
 
@@ -46,6 +46,7 @@ These are the collection of dotfiles, application lists, scripts, notes, and mor
 - kdenlive
 - blender
 - gimp
+- darktable
 - krita
 - android-studio
 - steam
