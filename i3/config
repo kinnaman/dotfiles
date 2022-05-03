@@ -195,8 +195,8 @@ gaps inner 13
 default_border none
 
 # Change the backlight brightness via hotkeys
-bindsym XF86KbdBrightnessUp exec sudo brightnessctl set +20%
-bindsym XF86KbdBrightnessDown exec sudo brightnessctl set -20%
+#bindsym XF86KbdBrightnessUp exec sudo brightnessctl set +20%
+#bindsym XF86KbdBrightnessDown exec sudo brightnessctl set -20%
 
 # Adding a compositor
 # exec picom 

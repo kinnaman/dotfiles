@@ -21,6 +21,9 @@ sudo apt install i3-gaps blueman
 #⠀Sets custom neofetch ascii art
 neofetch -source ./images/squidward
 
+# Neovim setup
+curl -sL install-node.vercel.app/lts | bash
+
 # Sets up powerline-shell
 sudo apt-get install python3-pip fonts-powerline
 python3-pip install powerline-shell

@@ -6,9 +6,11 @@
 </p>
 </div>
 
-![desktop image](https://i.imgur.com/wkdtp5B.png "desktop")
+![desktop image](https://i.imgur.com/eRAtjvM.png "desktop")
 
 These are the collection of dotfiles, application lists, scripts, notes, and more for my system. The install script is set up for Ubuntu based distros. The color scheme used is called Solarized. I use many different aliases to complete my work faster, so check those out in the .bashrc file before using them.
+
+Further many of the scripts, especially the install script, are works in progress. Do not run them without triple checking them. 
 
 #### System environment
 - i3-gaps
