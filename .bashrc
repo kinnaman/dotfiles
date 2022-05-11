@@ -136,8 +136,9 @@ alias jbuild='bundle exec jekyll build'
 alias passwd-generate='openssl rand -base64 14'
 alias yt-dlmp3='youtube-dl -x -i --audio-format mp3 --write-thumbnail'
 alias source-bashrc='source ~/.bashrc'
-
+alias jserve='bundle exec jekyll serve'
 # setting default editor
+
 export EDITOR='nvim'
 
 export GEM_HOME="$HOME/gems"
@@ -154,3 +155,4 @@ if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
