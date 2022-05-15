@@ -40,7 +40,7 @@ autocmd! User goyo.vim echom 'Goyo is now loaded!'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
 "Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " be sure to install coc-pairs alvin/close-tags vim-surround 
 
