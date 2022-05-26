@@ -13,10 +13,10 @@ sleep 2
 sudo apt-get update
 sudo apt-get install universal-ctags neovim ssh
 
-# Install i3-gaps and supporting apps on debian based systems
+# Install i3-gaps and supporting apps 
 sudo add-apt-repository ppa:regolith-linux/release
 sudo apt update
-sudo apt install i3-gaps blueman
+sudo apt install i3-gaps blueman xss-lock
 
 #⠀Sets custom neofetch ascii art
 neofetch -source ./images/squidward
@@ -36,7 +36,7 @@ while [[$confirm!="y" || $confirm!="n"]]; do
 	echo 'Would you like to install the web tool kit? y/n'
 	read $confirm
 done
-if [$confirm="y"]; then
+if [$confirm=="y"]; then
 	sudo apt-get install cmatrix figlet 
 fi
 

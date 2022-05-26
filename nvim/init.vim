@@ -57,7 +57,7 @@ set wildmenu
 set showmatch
 
 " Solarized settings
-set background=dark
+set background=light
 colorscheme solarized
 
 set tabstop=4
