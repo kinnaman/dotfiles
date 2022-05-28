@@ -26,8 +26,9 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Change the backlight brightness via hotkeys (currently does not work as it needs sudo & needs a substitute brightness manager)
-#bindsym XF86KbdBrightnessUp exec sudo brightnessctl set +20%
-#bindsym XF86KbdBrightnessDown exec sudo brightnessctl set -20%
+# Make sure brightnessctl is correctly installed with correct permissions. 
+bindsym XF86MonBrightnessUp exec brightnessctl set +20%
+bindsym XF86MonBrightnessDown exec brightnessctl set 20%-
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod

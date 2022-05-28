@@ -19,6 +19,8 @@ Further many of the scripts, especially the install script, are works in progres
 - systemd
 - x-org
 - flatpak
+- brightnessctl
+- [custom grub](https://www.gnome-look.org/p/1009236)
 
 #### Terminal QOL tools
 - neovim

@@ -138,6 +138,7 @@ alias yt-dlmp3='youtube-dl -x -i --audio-format mp3 --write-thumbnail'
 alias source-bashrc='source ~/.bashrc'
 alias jserve='bundle exec jekyll serve'
 alias rsync='rsync --dry-run'
+alias hugoserve='hugo server -D'
 # setting default editor
 
 export EDITOR='nvim'

@@ -11,12 +11,14 @@ sleep 2
 
 # Installs useful applications
 sudo apt-get update
-sudo apt-get install universal-ctags neovim ssh
+sudo apt-get install universal-ctags neovim ssh python3-pip 
 
 # Install i3-gaps and supporting apps 
 sudo add-apt-repository ppa:regolith-linux/release
 sudo apt update
-sudo apt install i3-gaps blueman xss-lock
+sudo apt install i3-gaps blueman xss-lock brightnessctl -y
+sudo usermod -aG video ${USER}
+
 
 #⠀Sets custom neofetch ascii art
 neofetch -source ./images/squidward
@@ -24,9 +26,10 @@ neofetch -source ./images/squidward
 # Neovim setup
 curl -sL install-node.vercel.app/lts | bash
 
+
 # Sets up powerline-shell
-sudo apt-get install python3-pip fonts-powerline
-python3-pip install powerline-shell
+sudo apt-get install fonts-powerline
+# python3-pip install powerline-shell 
 
 # Fun programs
 echo 'Would you like to install the some fun programs? y/n'
@@ -38,6 +41,7 @@ while [[$confirm!="y" || $confirm!="n"]]; do
 done
 if [$confirm=="y"]; then
 	sudo apt-get install cmatrix figlet 
+	pip3 install present
 fi
 
 # Web development tools
