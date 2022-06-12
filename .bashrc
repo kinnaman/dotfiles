@@ -137,15 +137,17 @@ alias passwd-generate='openssl rand -base64 14'
 alias yt-dlmp3='youtube-dl -x -i --audio-format mp3 --write-thumbnail'
 alias source-bashrc='source ~/.bashrc'
 alias jserve='bundle exec jekyll serve'
-alias rsync='rsync --dry-run'
-alias hugoserve='hugo server -D'
+alias backup-rsync='rsync -va --delete-before --exclude-from="Code/dotfiles/backup-exclude.txt" /home/pullmore/' 
+
 # setting default editor
 
 export EDITOR='nvim'
 
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
-
+export PATH="$PATH:/usr/local/go/bin"
+export PATH="$PATH:/home/pullmore/go"
+export PATH="$PATH:/home/pullmore/go/bin"
 # powerline-shell
 export PATH="$HOME/.local/bin:$PATH"
 function _update_ps1() {

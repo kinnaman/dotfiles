@@ -10,8 +10,7 @@ ___  ____ ___ ____ _ _    ____ ____
 sleep 2 
 
 # Installs useful applications
-sudo apt-get update
-sudo apt-get install universal-ctags neovim ssh python3-pip 
+sudo apt-get update & apt-get install universal-ctags neovim ssh python3-pip 
 
 # Install i3-gaps and supporting apps 
 sudo add-apt-repository ppa:regolith-linux/release
@@ -25,7 +24,6 @@ neofetch -source ./images/squidward
 
 # Neovim setup
 curl -sL install-node.vercel.app/lts | bash
-
 
 # Sets up powerline-shell
 sudo apt-get install fonts-powerline
