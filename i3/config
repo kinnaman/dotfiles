@@ -179,8 +179,8 @@ bar {
 }
 
 # i3-gaps configuration settings
-gaps inner 13
-smart_gaps on
+# gaps inner 13
+# smart_gaps on
 
 # Uses feh to make a background using filepath
 #exec --no-startup-id feh --bg-scale '/home/pullmore/Pictures/Wallpaper/Synth-City.png'

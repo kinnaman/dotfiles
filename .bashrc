@@ -149,14 +149,14 @@ export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:/home/pullmore/go"
 export PATH="$PATH:/home/pullmore/go/bin"
 # powerline-shell
-export PATH="$HOME/.local/bin:$PATH"
-function _update_ps1() {
-    PS1=$(powerline-shell $?)
-}
+# export PATH="$HOME/.local/bin:$PATH"
+# function _update_ps1() {
+#     PS1=$(powerline-shell $?)
+# }
 
-if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
+# if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+#     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+# fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
