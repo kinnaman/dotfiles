@@ -134,7 +134,7 @@ alias python='python3'
 alias jbuild='bundle exec jekyll build'
 #alias XDG_DATA_HOME=$XDG_DATA_DIRS
 alias passwd-generate='openssl rand -base64 14'
-alias yt-dlmp3='youtube-dl -x -i --audio-format mp3 --write-thumbnail'
+alias yt-dlmp3='youtube-dl -x -i --audio-format mp3 --add-metadata --embed-thumbnail'
 alias source-bashrc='source ~/.bashrc'
 alias jserve='bundle exec jekyll serve'
 alias backup-rsync='rsync -va --delete-before --exclude-from="Code/dotfiles/backup-exclude.txt" /home/pullmore/' 
