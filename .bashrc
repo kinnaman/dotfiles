@@ -138,6 +138,8 @@ alias yt-dlmp3='youtube-dl -x -i --audio-format mp3 --add-metadata --embed-thumb
 alias source-bashrc='source ~/.bashrc'
 alias jserve='bundle exec jekyll serve'
 alias backup-rsync='rsync -va --delete-before --exclude-from="Code/dotfiles/backup-exclude.txt" /home/pullmore/' 
+alias publish-page='npx wrangler pages publish public'
+alias multi-screen='xrandr --output DP-2-2 --auto --right-of eDP-1'
 
 # setting default editor
 

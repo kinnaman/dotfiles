@@ -26,3 +26,9 @@ PlayOnLinux*
 snap
 solarized
 .wine
+.mozilla
+.lyrics
+.kde
+.vba
+.w3m
+.zoom
