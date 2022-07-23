@@ -60,7 +60,10 @@ echo "Finished."
 # sudo apt update
 # sudo apt install i3-gaps 
 
-# Sets up powerline-shell
+# Display management tools
+sudo apt-get install xrandr arandr -y
+
+# Sets up powerline-shell (too much bloat now)
 # sudo apt-get install fonts-powerline
 # python3-pip install powerline-shell 
 

@@ -21,6 +21,7 @@ Further many of the scripts, especially the install script, are works in progres
 - flatpak
 - brightnessctl
 - [custom grub](https://www.gnome-look.org/p/1009236)
+- arandr / xrandr
 
 #### Terminal QOL tools
 - neovim
