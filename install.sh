@@ -70,3 +70,6 @@ sudo apt-get install xrandr arandr -y
 # Add keyboard rate change, media key settings for standard keyboard, etc here in a user selection/while loop
 #kbdrate (something)
 #bindsym capslock, media keys, etc
+
+# Email clients
+# neomutt thunderbird
