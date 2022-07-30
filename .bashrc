@@ -140,6 +140,7 @@ alias jserve='bundle exec jekyll serve'
 alias backup-rsync='rsync -va --delete-before --exclude-from="Code/dotfiles/backup-exclude.txt" /home/pullmore/' 
 alias publish-page='npx wrangler pages publish public'
 alias multi-screen='xrandr --output DP-2-2 --auto --right-of eDP-1'
+alias mutt='neomutt'
 
 # setting default editor
 

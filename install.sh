@@ -1,5 +1,20 @@
 #!/bin/bash
 
+# To-Do
+# create a environment variable generator for dotfiles location & such
+# set chron job for curl wttr.in/$city?format="%l:+%c+%t+%w+%p"
+# see for further detail - https://alindl.github.io/i3wm/2021/01/05/weather/
+
+# Set up environment variables
+echo Would you like to set your location? y/n
+read confirm
+if [$confirm="y"]; then
+	echo 'What city are you in?'
+	read city
+	sudo echo USER_LOCATION="$city" >> /etc/environment
+fi
+
+
 # Installs useful applications
 sudo apt-get update & apt-get install universal-ctags neovim ssh python3-pip flatkpak
 
