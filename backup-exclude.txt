@@ -1,4 +1,5 @@
 .steam*
+Steam
 Android*
 .android
 .atom
@@ -32,3 +33,6 @@ solarized
 .vba
 .w3m
 .zoom
+.local*
+.thunderbird
+.var

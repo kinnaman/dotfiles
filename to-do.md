@@ -7,3 +7,5 @@
 - Remove powerline and improve the layout
 - Add QOL tools into bashrc
 - Switch to Arch for personal machine
+- install script using either weather.gov api or openweather or something else for i3status bar
+- add music information in i3status
