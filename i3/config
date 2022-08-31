@@ -106,3 +106,6 @@ bindsym $mod+n exec i3lock -c 001e28
 
 # OSX like screenshot from /u/brainlessdeveloper
 bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`' # Area selection
+
+# xrandr screen switch in case arandr disconnects
+bindsym $mod+shift+equal exec xrandr --auto
