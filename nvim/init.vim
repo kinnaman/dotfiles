@@ -1,4 +1,4 @@
-"Be sure to download ctags
+" Be sure to download ctags to run
 "lua require('plugins')
 
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
@@ -39,7 +39,7 @@ autocmd! User goyo.vim echom 'Goyo is now loaded!'
 
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
-"Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
+" Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " be sure to install coc-pairs alvin/close-tags vim-surround 
@@ -47,7 +47,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Initialize plugin system
 call plug#end()
 
-"Basic settings for any vimrc"
+" Basic settings for any vimrc"
 syntax on
 filetype on "plugin indent on (previously)
 set number
@@ -62,12 +62,20 @@ colorscheme solarized
 
 set tabstop=4
 set shiftwidth=4
-"set expandtab
+" set expandtab
 
 nnoremap <esc> :noh<return><esc>		"Clears the last search highlightin in Vim
 nnoremap j gj
 nnoremap k gk
 
-"File explore behavior
+" Binding ctrl+s as save. If command does not work in terminal 
+" then press qtrl+q as it is likely your xterm is not configured
+" to pass ctrl+s to the application.
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
+
+
+" File explore behavior
 let g:netrw_liststyle = 3
 nnoremap <C-e> :Lexplore<CR>
