@@ -10,17 +10,14 @@ Android*
 dist
 FiraxisLive
 .fltk
-.FreeCAD
 .fzf*
 .GameGuide
 Games
 gems
 .gnupg
-go
 .gradle
 .ICEauthority
 .java
-.minecraft
 .PlayOnLinux
 PlayOnLinux*
 .QtWebEngineProcess
@@ -30,7 +27,6 @@ solarized
 .mozilla
 .lyrics
 .kde
-.vba
 .w3m
 .zoom
 .local*

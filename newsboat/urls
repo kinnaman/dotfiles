@@ -1,8 +1,10 @@
 # News
 https://feeds.bbci.co.uk/news/world/rss.xml News
 https://feeds.bbci.co.uk/news/rss.xml News
+https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml
 
-https://www.youtube.com/feeds/videos.xml?channel_id= YouTube
+#Financial
+https://www.ft.com/global-economy?format=rss
 
 # Reddit
 https://www.reddit.com/r/AskElectronics/.rss Reddit

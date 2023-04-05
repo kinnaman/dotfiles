@@ -50,13 +50,14 @@ Further many of the scripts, especially the install script, are works in progres
 - kicad
 - kdenlive
 - blender
-- gimp
+- gimp (extensions: gmic, resynthesizer)
 - darktable
 - krita
 - android-studio
 - steam
 - signal-desktop
 - discord
+- anki
 
 #### Fun Software
 - cmatrix
@@ -72,6 +73,7 @@ Further many of the scripts, especially the install script, are works in progres
 - tree
 
 #### Gaming Emulators
+- lutris
 - higan
 - virtualboyadvanced
 
