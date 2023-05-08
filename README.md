@@ -77,8 +77,9 @@ Further many of the scripts, especially the install script, are works in progres
 - higan
 - virtualboyadvanced
 
-#### Environment Tweaking
+#### Remote Sysadmin Tools
 - powertop (and or TLP)
+- smartctl
 
 ## Maintenance
 Be sure to update regularly with:

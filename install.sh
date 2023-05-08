@@ -14,7 +14,10 @@ if [$confirm="y"]; then
 	sudo echo USER_LOCATION="$city" >> /etc/environment
 fi
 
-
+# Symbolically link current directory's bashrc & bash_aliases files
+current_path=$(pwd)
+ln -s $current_path/.bashrc ~/.bashrc
+ln -s $current_path/.bash_aliases ~/.bash_aliases
 # Installs useful applications
 sudo apt-get update & apt-get install universal-ctags neovim ssh python3-pip flatkpak
 
